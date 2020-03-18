@@ -9,3 +9,10 @@ git commit -m 'mo ta commit nay lam viec gi'
 git log -> view history
 git show a68290a956267451a762c696f192c0b44bf42675
 git diff -> xem nhung file da duoc modified
+git checkout -- filename de huy thay doi file chua len staging
+git reset HEAD filename to unstage 
+
+git checkout -b <branch> (branching)
+git branch  check branch
+git checkout <branch>
+git merge
