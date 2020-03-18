@@ -2,3 +2,7 @@
 //git status 
 // git add 
 // git commit
+
+git status -> view file untrack
+git add -> add to stage
+git commit -m 'mo ta commit nay lam viec gi'
