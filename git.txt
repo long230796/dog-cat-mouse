@@ -26,6 +26,14 @@ master <---- feature/dog-class
 
 git branch -D <branch> (delete branch)
 
-git reset --soft <to_commit>
-git reset --mixed <to_commit>
-git reset --hard <to_commit>
+// bai 6 huy commit da  tao
+git reset --soft <to_commit> git reset --soft HEAD~1  // quay lai staging area
+git reset --mixed <to_commit> git reset --mixed HEAD~1 // quay lai working directory
+git reset --hard <to_commit> git reset --hard HEAD~1 // reset commit va code
+
+// bai 7
+git revert <hashId> revert lai commit cu, cac commit khac ko bi mat di
+
+// bai 8
+gitignore bo qua 1 so file ko muon commit
+install module chalk
