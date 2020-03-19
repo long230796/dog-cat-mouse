@@ -12,7 +12,20 @@ git diff -> xem nhung file da duoc modified
 git checkout -- filename de huy thay doi file chua len staging
 git reset HEAD filename to unstage 
 
-git checkout -b <branch> (branching)
+git checkout -b <branch> (branching)    // muon bo code di chi viec switch sang 										nhanh khac.
 git branch  check branch
-git checkout <branch>
+git checkout <branch>  switch branch
 git merge
+
+git checkout a
+git merge b
+
+a <-----b
+
+master <---- feature/dog-class
+
+git branch -D <branch> (delete branch)
+
+git reset --soft <to_commit>
+git reset --mixed <to_commit>
+git reset --hard <to_commit>
